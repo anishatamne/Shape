@@ -9,4 +9,20 @@ class EquilateralPyramid extends Shape implements Volume {
         this.height = height;
     }
 
+    
+    // Method to calculate surface area of equilateral pyramid
+    public double calculateArea() {
+        double baseArea = baseSide * baseSide;
+        double slantHeight = Math.sqrt((baseSide / 2) * (baseSide / 2) + height * height);
+        double lateralArea = 2 * baseSide * slantHeight;
+        return baseArea + lateralArea;
+    }
+
+    // Method to calculate perimeter of equilateral pyramid base
+    public double calculatePerimeter() {
+        return 4 * baseSide;
+    }
+
+    
+
 }
