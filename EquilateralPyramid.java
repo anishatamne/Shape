@@ -22,7 +22,10 @@ class EquilateralPyramid extends Shape implements Volume {
     public double calculatePerimeter() {
         return 4 * baseSide;
     }
-
+    // Method to calculate volume of equilateral pyramid
+    public double calculateVolume() {
+        return (1.0 / 3.0) * baseSide * baseSide * height;
+    }
     
 
 }
