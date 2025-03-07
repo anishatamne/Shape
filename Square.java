@@ -14,6 +14,8 @@ class Square extends Shape {
     }
 
     
-    
+    // Method to calculate perimeter of square
+    public double calculatePerimeter() {
+        return 4 * side;
     
 }
