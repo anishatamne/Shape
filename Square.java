@@ -19,3 +19,4 @@ class Square extends Shape {
         return 4 * side;
     
 }
+}
