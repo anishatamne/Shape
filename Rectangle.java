@@ -9,5 +9,15 @@ class Rectangle extends Shape {
         this.width = width;
     }
 
+    // Method to calculate area of rectangle
+    public double calculateArea() {
+        return length * width;
+    }
+
+    // Method to calculate perimeter of rectangle
+    public double calculatePerimeter() {
+        return 2 * (length + width);
+    }
+
     
 }
