@@ -8,5 +8,12 @@ class Square extends Shape {
         this.side = side;
     }
 
+    // Method to calculate area of square
+    public double calculateArea() {
+        return side * side;
+    }
+
+    
+    
     
 }
