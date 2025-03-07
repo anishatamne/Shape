@@ -8,6 +8,14 @@ class Circle extends Shape {
         this.radius = radius;
     }
 
-    
+    // Method to calculate area of circle
+    public double calculateArea() {
+        return Math.PI * radius * radius;
+    }
+
+    // Method to calculate perimeter (circumference) of circle
+    public double calculatePerimeter() {
+        return 2 * Math.PI * radius;
+    }
 }
 
