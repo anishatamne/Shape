@@ -18,5 +18,8 @@ class Sphere extends Shape implements Volume {
         return 0;
     }
 
-    
+    // Method to calculate volume of sphere
+    public double calculateVolume() {
+        return (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);
+    }
 }
