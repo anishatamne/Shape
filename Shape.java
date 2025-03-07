@@ -6,4 +6,10 @@ abstract class Shape {
     public Shape(String shapeName) {
         this.shapeName = shapeName;
     }
+
+    
+    // Abstract methods to be implemented by concrete shape classes
+    public abstract double calculateArea();
+    public abstract double calculatePerimeter();
+
 }
